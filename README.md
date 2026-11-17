@@ -30,6 +30,22 @@ Graph Contrastive Learning (GCL) improves recommendation by pushing embeddings t
 
 Split 7:1:2, five target items sampled from the bottom 20% of the popularity ranking, three runs averaged.
 
+## Data
+
+The processed datasets (ML-10M, DouBan, Yelp) are not tracked in this repository. Download them from Google Drive:
+
+<https://drive.google.com/drive/folders/1Xxd2-T5Ax3KNF9E3ywRV4m4pKDAHIiWb?usp=sharing>
+
+After downloading, place the dataset folders under `data/clean/`:
+
+```
+data/
+└── clean/
+    ├── ml-10M/
+    ├── douban/
+    └── Yelp/
+```
+
 ## Citation
 
 ```bibtex
